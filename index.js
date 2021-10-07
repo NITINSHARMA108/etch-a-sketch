@@ -41,7 +41,7 @@ function makegrid()
     cleargrid();
     console.log(gridvalue);
     let width=document.getElementById('grid').offsetWidth-10;
-    let height=document.getElementById('grid').offsetHeight-10;
+    let height=width;
     console.log(height,width);
     
     for(let i=0;i<gridvalue;i++)

@@ -35,7 +35,7 @@ div{
     padding: 0px;
 }
 #grid{
-    height:50%;
+    
     width:50%;
     border:5px solid black;
     flex-grow:0;
