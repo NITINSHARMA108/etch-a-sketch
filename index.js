@@ -8,9 +8,9 @@ function clearbackground(){
 
 function changegridvalue(){
    
-    if(document.getElementById('gridinput').value>100)
+    if(document.getElementById('gridinput').value>100 || document.getElementById('gridinput').value<2)
     {
-        window.alert('value greater than hundred not allowed');
+        window.alert('value not allowed');
     }
     else{
         gridvalue=document.getElementById('gridinput').value;
